@@ -1,16 +1,23 @@
 ##Blank nodejs app
 
-to run locally 
 
-navigate to root folder 
- -> npm i 
- -> cd client 
-    -> npm i 
+instructions to run locally 
 
-terminal #1 
- npm run dev -- starts node server with nodemon 
+terminal #1
+    (navigate to root folder )
+    (from root folder)
+    npm install (installs dependencies)
+    npm run dev -- starts node server with nodemon 
 
- terminal #2 
- npm run client -- starts local react server 
+terminal #2 
+    (navigate to root folder )
+    cd client (will be in client folder) 
+    npm install (installs dependencies)
+    cd .. (will be in root folder)
+    npm run client -- starts local react server
+    (default broswer will open to localhost:3000)
 
- then default broswer will open 
+
+    ** to quit either process **
+    ctrl + c
+
